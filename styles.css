@@ -1,0 +1,219 @@
+/* General Styles */
+
+body {
+    background-color: #24273a;
+
+}
+
+.btn__plus {
+    border: none;
+    background-color: inherit;
+    color: #fff;
+}
+
+.containerSection {
+    margin: 4.5rem 10rem 0 10rem;
+}
+
+.containerTitle {
+  
+}
+
+.title__section{
+    margin: 0 10rem;
+}
+
+.section__img{
+    width: 80px;
+}
+
+
+.border__bottom {
+    border-bottom: 1px solid #b8c0e0;
+}
+
+i {
+    border-radius: 2rem;
+    padding: 0.6rem;
+    box-sizing: content-box;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+i:hover {
+ background-color: #363a4f;
+}
+
+
+/* Modal Styles */
+
+.modal__background{
+    background-color: #24273a;
+}
+
+.moda__inputs {
+    background-color: #1e2030;
+    padding: 0.4rem 0.8rem;
+    border: none;
+
+    outline: none;
+    color: #fff;
+    border-radius: 1rem;
+    resize: none;
+}
+
+
+/* Header Styles */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    z-index: 1;
+    background-color: #1e2030;
+    border-bottom : 1px solid #363a4f
+}
+
+.header__logo{
+    width: 120px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.header__logo:hover {
+    transform: scale(1.03);
+}
+
+
+/* Footer Styles */
+
+.footer{
+    background-color: #1e2030;
+    color: #fff;
+}
+
+
+/* Banner Styles */
+
+.banner__header{
+    position: relative;
+}
+
+.img__container{
+    position: absolute;
+    left: 10rem;
+    bottom: -4rem;
+}
+
+.banner__img{
+    width: 180px;
+    border: 2px solid #b8c0e0;
+}
+
+
+.actually__img {
+    width: 40px;
+}
+
+.text__primary {
+    color: #cad3f5;
+}
+
+.text__secondary {
+    color: #b8c0e0;
+}
+
+.btn__knowMore{
+    background-color:#8aadf4;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #24273a;
+    padding: 0.4rem;
+    margin-top: 0.4rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn__knowMore:hover{
+    background-color: #8aadf49d;
+}
+
+.container__info{
+    position: relative;
+}
+
+.banner__editIcon{
+    position: absolute;
+    right: 0;
+    top: -4rem;
+    font-size: 1.3rem;
+}
+
+/* Login Styles */
+
+.auth {
+    padding: 10rem 0;
+    color: #fff;
+}
+
+.auth__container_form {
+    background-color: #1e2030;
+    padding: 2rem;
+    width: 30vw;
+    border-radius: 1rem;
+}
+
+.auth__form_input{
+    background-color: #24273a;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 0.4rem 0.6rem;
+}
+
+/* Styles EditPerfil */
+
+.edit__perfil__container{
+    padding: 3rem 0;
+}
+
+
+
+/* Responsive Web */
+
+@media (max-width: 640px) {
+    .img__container{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .containerSection{
+        margin: 4rem 0;
+    }
+
+
+    .title__section{
+        margin: 0;
+    }
+
+    .banner__img{
+        width: 140px;
+    }
+
+    .auth__container_form {
+        width: 80vw;
+    }
+
+    .containerTitle {
+        margin-bottom: 0.4rem;
+    }
+
+    .moda__inputs {
+        width: 60vw;
+    }
+  
+}

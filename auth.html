@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+ 
+    <title>Auth Portaflio</title>
+</head>
+<body>
+    <header class="d-flex justify-content-between align-items-center header px-5 py-2 shadow-sm">
+        <a href="/"><img src="https://desa.argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1674860780/APLogo-20-20.png" class="header__logo"/></a>
+        <nav class="d-flex gap-2 align-items-center">
+            <ul class="d-flex gap-3  list-roup m-0  ">
+                <li class="list-group-item fs-4">
+                    <i class="fa-brands fa-facebook"></i>
+                </li>
+                <li class="list-group-item fs-4">
+                    <i class="fa-brands fa-instagram"></i>
+                </li>
+                <li class="list-group-item fs-4">
+                    <i class="fa-brands fa-twitter"></i>
+                </li>
+            </ul>
+            <a href="./auth.html" class="btn fs-5  btn-link"><i class="fa-regular fa-user "></i></a>
+        </nav>
+    </header>
+    <main class="d-flex flex-column container align-items-center justify-content-center auth">
+        <div class="auth__container_form d-flex flex-column gap-3">
+            <h2>INICIAR <span class="text-warning">SESSION</span></h2>
+            <form class="d-flex flex-column gap-4 ">
+                <input type="text" placeholder="@username33"
+                class="auth__form_input"/>
+                <input type="password" placeholder="**********"
+                class="auth__form_input"/>
+                <button class="btn btn-warning ">Iniciar Sesion</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer d-flex flex-column flex-sm-row justify-content-center align-items-center">
+        <img src="https://desa.argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1674860780/APLogo-20-20.png" class="w-25"/>
+        <div>
+            <h5 class="fs-6 m-0 mb-2">By Matias Cabrera 2023</h5>
+            <ul class="d-flex gap-3  list-roup m-0  ">
+                <li class="list-group-item fs-6">
+                    <i class="fa-brands fa-facebook"></i>
+                </li>
+                <li class="list-group-item fs-6">
+                    <i class="fa-brands fa-instagram"></i>
+                </li>
+                <li class="list-group-item fs-6">
+                    <i class="fa-brands fa-twitter"></i>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/ebd28af935.js" crossorigin="anonymous"></script>
+</body>
+</html>

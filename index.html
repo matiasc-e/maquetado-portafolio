@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+ 
+    <title>Portafolio Web</title>
+</head>
+<body class="text-white">
+    <!-- Header Section -->
+    <header class="d-flex justify-content-between align-items-center header px-5 py-2 shadow-sm">
+        <a href="/"><img src="https://desa.argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1674860780/APLogo-20-20.png" class="header__logo"/></a>
+        <nav class="d-flex gap-2 align-items-center">
+            <ul class="d-flex gap-3  list-roup m-0  ">
+                <li class="list-group-item fs-4">
+                    <i class="fa-brands fa-facebook"></i>
+                </li>
+                <li class="list-group-item fs-4">
+                    <i class="fa-brands fa-instagram"></i>
+                </li>
+                <li class="list-group-item fs-4">
+                    <i class="fa-brands fa-twitter"></i>
+                </li>
+            </ul>
+            <a href="./auth.html" class="btn fs-5  btn-link text-warning"><i class="fa-regular fa-user "></i></a>
+        </nav>
+    </header>
+    <!-- Banner Section -->
+    <section class="container mt-4">
+        <div class="banner__header">
+            <img src="https://thumbs.dreamstime.com/b/c%C3%B3digo-animado-abstracto-de-la-programaci%C3%B3n-inform%C3%A1tica-como-fondo-de-la-tecnolog%C3%ADa-47207494.jpg" class="rounded mx-auto d-block w-75 shadow-sm"/>
+            <div class="img__container d-flex align-items-end">
+                <img src="https://i.pinimg.com/564x/00/03/92/0003921aa32e8ff9620ed4f2f1b245ce.jpg" class="rounded-circle banner__img"/>
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between  containerSection mb-4 container__info">
+            <div class="banner__editIcon">
+                <a href="./editPerfil.html" class="text-white">  <i class="fa-solid fa-pencil "></i></a>
+            </div>
+            <div class="d-flex flex-column gap-1 align-items-center align-items-sm-start mb-4">
+                <h2 class="text__primary d-flex gap-2 align-items-center m-0">Matias Cabrera</h2>
+                <p class="text__secondary  m-0">Trainer Full Stack</p>
+                <p class="text__secondary m-0">Buenos Aires (Argentina)</p>
+                <button class=" btn__knowMore">Saber Más</button>
+            </div>
+            <div class="d-flex flex-column gap-3">
+                <div class="d-flex gap-2 align-items-center">
+                    <img src="https://yt3.googleusercontent.com/4HM_-p_YCTbyHFdDKLOd2DPr8QvHePQcq9v4404vHP4ojUD5H9h0Cj8MYY0EAgFWxKocR2bGgQc=s900-c-k-c0x00ffffff-no-rj" class="rounded actually__img"/>
+                    <p class="m-0 text__secondary">Argentina Programa</p>
+                </div>
+               
+            </div>
+
+        </div>
+        <div class="title__section border__bottom ">
+            <h3 class="text__primary">Acerca de</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quibusdam aliquam illum culpa aut temporibus ex ratione incidunt maxime sit.</p>
+        </div>    
+
+    </section>
+    <!-- Experience Section -->
+    <section class="container">
+        <div class="d-flex justify-content-between containerSection align-items-center mt-4 containerTitle">
+            <h3 class="text__primary mb-4">Experiencia</h3>
+            <button type="button"
+            class="btn__plus" 
+            data-bs-toggle="modal" data-bs-target="#btn-plus-experience"> <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+        <div class="d-flex justify-content-between title__section align-items-start">
+            <div class="d-flex gap-2 align-items-start">
+                <img src="https://cdn-icons-png.flaticon.com/512/2721/2721616.png" class="section__img"/>
+               <div class="d-flex flex-column gap-1">
+                 <h4 class="m-0">Frontend Developer</h4>
+                 <p class="m-0">Globant | Jornada parcial</p>
+                 <p class="m-0">mar 2019- Lorem ipsum dolor sit amet.</p>
+               </div>
+            </div>
+            <div class="d-flex  gap-3">
+                <i class="fa-solid fa-pencil "></i>
+                <i class="fa-solid fa-trash"></i>
+            </div>
+        </div>
+
+    </section>
+    <!-- Education Section -->
+    <section class="container mb-4">
+        <div class="d-flex justify-content-between containerSection align-items-center mt-4 containerTitle">
+            <h3 class="text__primary mb-4">Educacion</h3>
+            <button type="button"
+            class="btn__plus" 
+            data-bs-toggle="modal" data-bs-target="#btn-plus-education"> <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+        <div class="d-flex justify-content-between title__section mb-4 align-items-start">
+            <div class="d-flex gap-2 align-items-start">
+                <img src="https://yt3.googleusercontent.com/4HM_-p_YCTbyHFdDKLOd2DPr8QvHePQcq9v4404vHP4ojUD5H9h0Cj8MYY0EAgFWxKocR2bGgQc=s900-c-k-c0x00ffffff-no-rj" class="section__img"/>
+               <div class="d-flex flex-column gap-1">
+                 <h4 class="m-0">Argentina Programa</h4>
+                 <p class="m-0">Programacion Full Stack</p>
+                 <p class="m-0">2022-2023</p>
+               </div>
+            </div>
+            <div class="d-flex  gap-3">
+                <i class="fa-solid fa-pencil "></i>
+                <i class="fa-solid fa-trash"></i>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between title__section align-items-start ">
+            <div class="d-flex gap-2 align-items-start">
+                <img src="https://www.colegiosenbuenosaires.com/wp-content/uploads/2019/06/Instituto-Santa-Cecilia_en-Berazategui_escudo-logo.jpg" class="section__img "/>
+               <div class="d-flex flex-column gap-1">
+                 <h4 class="m-0">Santa Cecilia</h4>
+                 <p class="m-0">Instituto Tecnico</p>
+                 <p class="m-0">2014-2020</p>
+               </div>
+            </div>
+            <div class="d-flex  gap-3">
+                <i class="fa-solid fa-pencil "></i>
+                <i class="fa-solid fa-trash"></i>
+            </div>
+        </div>
+
+    </section>
+    <!-- Skills Section -->
+    <section class="container mb-4 ">
+        <div class="d-flex justify-content-between containerSection align-items-center mt-4 containerTitle">
+            <div>
+                <h3 class="text__primary ">Skills</h3>
+            </div>
+            <button type="button"
+            class="btn__plus" 
+            data-bs-toggle="modal" data-bs-target="#btn-plus-skills"> <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+        <div class="title__section d-flex flex-column gap-3 border__bottom pb-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <h4 class="text__secondary">HTML</h4>
+                <div class="d-flex  gap-3">
+                    <i class="fa-solid fa-pencil "></i>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-success" style="width: 90%"></div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+                <h4 class="text__secondary">CSS</h4>
+                <div class="d-flex  gap-3">
+                    <i class="fa-solid fa-pencil "></i>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>
+              <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-info" style="width: 85%"></div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="text__secondary">BOOSTRAP</h4>
+                <div class="d-flex  gap-3">
+                    <i class="fa-solid fa-pencil "></i>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>
+              <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-warning" style="width: 75%"></div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="text__secondary">JAVASCRIPT</h4>
+                <div class="d-flex  gap-3">
+                    <i class="fa-solid fa-pencil "></i>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>  
+              <div class="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-warning" style="width: 70%"></div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="text__secondary">TYPESCRIPT</h4>
+                <div class="d-flex  gap-3">
+                    <i class="fa-solid fa-pencil "></i>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div> 
+            <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+             <div class="progress-bar bg-danger" style="width: 50%"></div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+                <h4 class="text__secondary">ANGULAR</h4>
+                <div class="d-flex  gap-3">
+                    <i class="fa-solid fa-pencil "></i>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>  
+            <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+             <div class="progress-bar bg-danger" style="width: 55%"></div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+                <h4 class="text__secondary">JAVA</h4>
+                <div class="d-flex  gap-3">
+                    <i class="fa-solid fa-pencil "></i>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+             <div class="progress-bar bg-danger" style="width: 60%"></div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+                <h4 class="text__secondary">MYSQL</h4>
+                <div class="d-flex  gap-3">
+                    <i class="fa-solid fa-pencil "></i>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+             <div class="progress-bar bg-warning" style="width: 75%"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Proyects Section -->
+    <section class="container mb-4">
+        <div class="d-flex justify-content-between containerSection align-items-center mt-4 containerTitle">
+            <h3 class="text__primary mb-4">Proyectos</h3>
+            <button type="button"
+            class="btn__plus" 
+            data-bs-toggle="modal" data-bs-target="#btn-plus-proyects"> <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+        <div class="d-flex justify-content-between title__section align-items-start">
+            <div class="d-flex flex-column gap-1">
+                <h4 class="m-0 fs-5 text-info">Portafolio Web</h4>
+                <p class="m-0 text__secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, praesentium!</p>
+            </div>
+
+            <div class="d-flex  gap-3">
+                <i class="fa-solid fa-pencil "></i>
+                <i class="fa-solid fa-trash"></i>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between title__section align-items-start ">
+            <div class="d-flex flex-column gap-2 align-items-start">
+                 <h4 class="m-0 fs-5 text-info">Encriptador De Texto</h4>
+                 <p class="m-0 text__secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, amet?</p>
+            </div>
+            <div class="d-flex  gap-3">
+                <i class="fa-solid fa-pencil "></i>
+                <i class="fa-solid fa-trash"></i>
+            </div>
+        </div>
+
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer d-flex flex-column flex-sm-row justify-content-center align-items-center">
+        <img src="https://desa.argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1674860780/APLogo-20-20.png" class="w-25"/>
+        <div>
+            <h5 class="fs-6 m-0 mb-2">By Matias Cabrera 2023</h5>
+            <ul class="d-flex gap-3  list-roup m-0 p-0 ">
+                <li class="list-group-item fs-6">
+                    <i class="fa-brands fa-facebook"></i>
+                </li>
+                <li class="list-group-item fs-6">
+                    <i class="fa-brands fa-instagram"></i>
+                </li>
+                <li class="list-group-item fs-6">
+                    <i class="fa-brands fa-twitter"></i>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
+    <!-- Modales -->
+
+    <!-- Modals -->
+    <!-- Modal add Experience -->
+    <div class="modal fade" id="btn-plus-experience" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+        <div class="modal-content text-warning  modal__background">
+            <div class="modal-header">
+                <h1 class="modal-title fs-6 text__primary id="staticBackdropLabel">Agregar Experiencia</h1>
+                <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <form class="d-flex flex-column gap-4">
+                    <div class="d-flex flex-column gap-1">
+                        <label class="fs-6 text__secondary">Agregar Logo de Empresa</label>
+                        <input type="text" placeholder="https://imageupload.com" class=".
+                        moda__inputs"/>
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label class="fs-6 text__secondary">Agregar Nombre de la Empresa</label>
+                        <input type="text" placeholder="MetaVerso" class=".
+                        moda__inputs"/>
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label class="fs-6 text__secondary">Agregar cargo en la empresa</label>
+                        <input type="text" placeholder="Frontend developer" class=".
+                        moda__inputs"/>
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label class="fs-6 text__secondary">Periodo de Inicio</label>
+                        <input type="date" placeholder="dd/mm/aaaa" class=".
+                        moda__inputs"/>
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label class="fs-6 text__secondary">Periodo Fin</label>
+                        <input type="date" placeholder="dd/mm/aaaa" class=".
+                        moda__inputs"/>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-warning">Aceptar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Modal add Education -->
+    <div class="modal fade" id="btn-plus-education" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+        <div class="modal-content text-warning  modal__background">
+            <div class="modal-header">
+                <h1 class="modal-title fs-6 text__primary id="staticBackdropLabel">Agregar Educacion</h1>
+                <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <form class="d-flex flex-column gap-4">
+                    <div class="d-flex flex-column gap-1">
+                        <label class="fs-6 text__secondary">Agregar Logo de Instituto</label>
+                        <input type="text" placeholder="https://imageupload.com" class=".
+                        moda__inputs"/>
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label class="fs-6 text__secondary">Agregar Nombre de la Instituto</label>
+                        <input type="text" placeholder="Argentina Programa" class=".
+                        moda__inputs"/>
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label class="fs-6 text__secondary">Agregar Temas Abarcados</label>
+                        <input type="text" placeholder="Programacion" class=".
+                        moda__inputs"/>
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label class="fs-6 text__secondary">Periodo de Inicio</label>
+                        <input type="date" placeholder="dd/mm/aaaa" class=".
+                        moda__inputs"/>
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label class="fs-6 text__secondary">Periodo Fin</label>
+                        <input type="date" placeholder="dd/mm/aaaa" class=".
+                        moda__inputs"/>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-warning">Aceptar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Modal add Skills -->
+    <div class="modal fade" id="btn-plus-skills" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+        <div class="modal-content text-warning  modal__background">
+            <div class="modal-header">
+                <h1 class="modal-title fs-6 text__primary id="staticBackdropLabel">Agregar Skills</h1>
+                <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <form class="d-flex flex-column gap-4">
+                    <div class="d-flex flex-column gap-1">
+                        <label class="fs-6 text__secondary">Agregar Nombre de la Habilidad</label>
+                        <input type="text" placeholder="javascript" class=".
+                        moda__inputs"/>
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label class="fs-6 text__secondary">¿Del 1 al 100 cual capacitado te sientes?</label>
+                        <input type="number" placeholder="Ingresar nivel del skill" class=".
+                        moda__inputs"/>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-warning">Agregar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Modal add Proyects -->
+    <div class="modal fade" id="btn-plus-proyects" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+        <div class="modal-content text-warning  modal__background">
+            <div class="modal-header">
+                <h1 class="modal-title fs-6 text__primary id="staticBackdropLabel">Agregar Proyectos</h1>
+                <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <form class="d-flex flex-column gap-4">
+                    <div class="d-flex flex-column gap-1">
+                        <label class="fs-6 text__secondary">Agregar Nombre del Proyecto</label>
+                        <input type="text" placeholder="Portafolio" class=".
+                        moda__inputs"/>
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label class="fs-6 text__secondary">Agregar Descripcion del Proyecto </label>
+                        <input type="text" placeholder="descripcion..." class=".
+                        moda__inputs"/>
+                    </div>
+    
+                </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-warning">Agregar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/ebd28af935.js" crossorigin="anonymous"></script>
+</body>
+</html>
